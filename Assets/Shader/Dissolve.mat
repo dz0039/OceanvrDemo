@@ -5,7 +5,8 @@ Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: Dissolve
   m_Shader: {fileID: 4800000, guid: d0cb7fc15cf54b240adf0281f72e1b60, type: 3}
   m_ShaderKeywords: 
@@ -23,7 +24,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_68C5C62B: -0.1
+    - Vector1_68C5C62B: -0.21
     - Vector1_D3EA06BB: 50
     m_Colors:
     - Color_57725705: {r: 0, g: 1.308306, b: 4.0304255, a: 0}

@@ -57,13 +57,15 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _cTex:
-        m_Texture: {fileID: 2800000, guid: abc12d5f4c39bd442ab615a5c45152d3, type: 3}
+        m_Texture: {fileID: 2800000, guid: e977cc74b25eda44caf6c09b362319ca, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - Vector1_51B09211: 90.3
     - Vector1_6B4C924C: 265
     - Vector1_78C51CA0: 1200.58
+    - Vector1_BE63B2B8: 3.81
+    - Vector1_CA71BF33: -2.07
     - Vector1_D260A71: -0.44
     - Vector1_DC75657C: 3.26
     - Vector1_FAF68457: 4.4

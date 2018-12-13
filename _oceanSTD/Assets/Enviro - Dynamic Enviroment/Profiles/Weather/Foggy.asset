@@ -3,7 +3,7 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -22,12 +22,12 @@ MonoBehaviour:
   winter: 1
   possibiltyInWinter: 21.5
   cloudsConfig:
-    topColor: {r: 0.6985294, g: 0.6985294, b: 0.6985294, a: 1}
+    topColor: {r: 1, g: 0, b: 0, a: 1}
     bottomColor: {r: 0.25270328, g: 0.2671653, b: 0.30147058, a: 1}
     skyBlending: 1
     alphaCoef: 3.5
     scatteringCoef: 0.1
-    density: 2.51
+    density: 2
     coverage: -1
     coverageHeight: 1.513
     raymarchingScale: 1
@@ -35,7 +35,7 @@ MonoBehaviour:
     cirrusAlpha: 1
     cirrusCoverage: 0
     cirrusColorPow: 2.03
-    flatAlpha: 0
+    flatAlpha: 1
     flatCoverage: 0
     flatSoftness: 0.75
     flatBrightness: 0.75

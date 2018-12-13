@@ -41,11 +41,11 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - Vector1_1B859219: 0
-    - Vector1_332702BA: 0.92
+    - Vector1_332702BA: 1.16
     - Vector1_5EC4FDDD: 0.05
     - Vector1_8510BE0B: 5.94
     - Vector1_A58B4BE7: 0.807
-    - Vector1_D2EF5567: 2
+    - Vector1_D2EF5567: 2.13
     - Vector1_F24F662A: 1
     - Vector1_FCB53EE6: 5.29
     - _BlendOp: 0
@@ -71,7 +71,7 @@ Material:
     - _SoftParticlesFarFadeDistance: 1
     - _SoftParticlesNearFadeDistance: 0
     - _SrcBlend: 1
-    - _UFalloff: 3.21
+    - _UFalloff: 2.78
     - _ZWrite: 1
     m_Colors:
     - Color_712AC011: {r: 0.2216981, g: 0.7673298, b: 1, a: 1}

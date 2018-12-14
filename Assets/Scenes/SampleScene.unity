@@ -51,7 +51,7 @@ LightmapSettings:
     m_IndirectOutputScale: 1
     m_AlbedoBoost: 1
     m_EnvironmentLightingMode: 1
-    m_EnableBakedLightmaps: 0
+    m_EnableBakedLightmaps: 1
     m_EnableRealtimeLightmaps: 0
   m_LightmapEditorSettings:
     serializedVersion: 11
@@ -235,7 +235,7 @@ Transform:
   - {fileID: 1259780278}
   - {fileID: 266238964}
   m_Father: {fileID: 1094536027}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &266238963
 GameObject:
@@ -264,7 +264,6 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1211515160}
   - {fileID: 638572043}
   - {fileID: 1045275919}
   - {fileID: 546709871}
@@ -589,7 +588,7 @@ PrefabInstance:
     - target: {fileID: 1984944131994608285, guid: b57cc332156112b4581d7b61e5706010,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1984944131994608285, guid: b57cc332156112b4581d7b61e5706010,
         type: 3}
@@ -684,7 +683,7 @@ PrefabInstance:
     - target: {fileID: 1984944131994608285, guid: b57cc332156112b4581d7b61e5706010,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1984944131994608285, guid: b57cc332156112b4581d7b61e5706010,
         type: 3}
@@ -1019,6 +1018,7 @@ Transform:
   m_LocalPosition: {x: -0.25455526, y: 0.16950862, z: 23.887194}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 1211515160}
   - {fileID: 2129992996}
   - {fileID: 1370671368}
   - {fileID: 188770788}
@@ -5850,10 +5850,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1211515159}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.06, y: -18.02, z: -10.83}
+  m_LocalPosition: {x: -0.040698767, y: -16.01294, z: -30.475225}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 266238964}
+  m_Father: {fileID: 1094536027}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1211515161
@@ -5866,11 +5866,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 810dab8518877c340b781735dd1173cb, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -6109,7 +6109,7 @@ Transform:
   m_Children:
   - {fileID: 182352283}
   m_Father: {fileID: 1094536027}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1370671369
 MonoBehaviour:
@@ -6555,7 +6555,7 @@ Transform:
   m_Children:
   - {fileID: 1193827064}
   m_Father: {fileID: 1094536027}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2138677391
 GameObject:
@@ -6722,7 +6722,7 @@ PrefabInstance:
     - target: {fileID: 1984944131994608285, guid: b57cc332156112b4581d7b61e5706010,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1984944131994608285, guid: b57cc332156112b4581d7b61e5706010,
         type: 3}

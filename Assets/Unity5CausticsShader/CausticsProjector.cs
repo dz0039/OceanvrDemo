@@ -9,7 +9,7 @@ namespace Assets.Scripts
 
 
         private new Renderer renderer;
-        public Material material;
+        public Material[] materials;
 
         public Texture[] causticsTextures = null;
 
@@ -24,7 +24,10 @@ namespace Assets.Scripts
            // if (causticsTextures != null && causticsTextures.Length >= 1)
             //{
                 int causticsIndex = (int)(Time.time * FramesPerSecond) % causticsTextures.Length;
-                material.SetTexture("_cTex", causticsTextures[causticsIndex]);
+            foreach (Material m in materials)
+            {
+               m.SetTexture("_cTex", causticsTextures[causticsIndex]);
+            }
                // renderer.sharedMaterial.SetTexture("_EmissionMap", causticsTextures[causticsIndex]);
            // }
 

@@ -12,7 +12,7 @@ Material:
     type: 3}
   m_ShaderKeywords: _EMISSION
   m_LightmapFlags: 2
-  m_EnableInstancingVariants: 0
+  m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
@@ -57,7 +57,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _cTex:
-        m_Texture: {fileID: 2800000, guid: dc15cbdb8314bdf428997a1ce8002a8f, type: 3}
+        m_Texture: {fileID: 2800000, guid: e977cc74b25eda44caf6c09b362319ca, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:

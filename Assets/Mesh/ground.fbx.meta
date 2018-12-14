@@ -1,8 +1,48 @@
 fileFormatVersion: 2
 guid: cabe7ce727356fa4e8b9500e3da8e5af
 ModelImporter:
-  serializedVersion: 24
-  internalIDToNameTable: []
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: node_id30
+    100004: node_id31
+    100006: node_id33
+    100008: node_id35
+    100010: node_id37
+    100012: node_id38
+    100014: node_id40
+    100016: node_id41
+    100018: node_id43
+    400000: //RootNode
+    400002: node_id30
+    400004: node_id31
+    400006: node_id33
+    400008: node_id35
+    400010: node_id37
+    400012: node_id38
+    400014: node_id40
+    400016: node_id41
+    400018: node_id43
+    2100000: Material_44
+    2100002: Material_45
+    2100004: Material_46
+    2100006: Material_47
+    2100008: Material_48
+    2300000: node_id31
+    2300002: node_id33
+    2300004: node_id35
+    2300006: node_id38
+    2300008: node_id41
+    3300000: node_id31
+    3300002: node_id33
+    3300004: node_id35
+    3300006: node_id38
+    3300008: node_id41
+    4300000: node_id31
+    4300002: node_id33
+    4300004: node_id35
+    4300006: node_id38
+    4300008: node_id41
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -37,7 +77,6 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
-    useSRGBMaterialColor: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -45,13 +84,10 @@ ModelImporter:
     swapUVChannels: 0
     generateSecondaryUV: 1
     useFileUnits: 1
+    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
-    skinWeightsMode: 0
-    maxBonesPerVertex: 4
-    minBoneWeight: 0.001
-    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
@@ -65,9 +101,6 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
-    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
-    blendShapeNormalImportMode: 1
-    normalSmoothingSource: 0
   importAnimation: 1
   copyAvatar: 0
   humanDescription:

@@ -71,7 +71,7 @@ Material:
     - _SoftParticlesFarFadeDistance: 1
     - _SoftParticlesNearFadeDistance: 0
     - _SrcBlend: 1
-    - _UFalloff: 1.04
+    - _UFalloff: 0.92
     - _ZWrite: 1
     m_Colors:
     - Color_712AC011: {r: 0.042452812, g: 0.63529414, b: 1, a: 1}

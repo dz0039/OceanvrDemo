@@ -1,20 +1,8 @@
 fileFormatVersion: 2
 guid: 346f3ac126afc7b468a520edc967e781
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: node_id30
-    100002: node_id32
-    100004: node_id33
-    100006: //RootNode
-    400000: node_id30
-    400002: node_id32
-    400004: node_id33
-    400006: //RootNode
-    2100000: Material_42
-    2300000: node_id30
-    3300000: node_id30
-    4300000: node_id30
+  serializedVersion: 24
+  internalIDToNameTable: []
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -49,6 +37,7 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -56,10 +45,13 @@ ModelImporter:
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
@@ -73,6 +65,9 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
   importAnimation: 1
   copyAvatar: 0
   humanDescription:

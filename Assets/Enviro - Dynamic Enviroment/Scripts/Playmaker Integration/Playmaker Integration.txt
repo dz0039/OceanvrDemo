@@ -1,2 +1,0 @@
-If you own a copy of Playmaker (https://www.assetstore.unity3d.com/en/#!/content/368) unzip the archive for some Custom Actions.
-If you need more Actions or have any ideas for better integration, feel free to contact me ;)
